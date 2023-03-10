@@ -125,6 +125,12 @@ span {
   }
 }
 
+.accordion-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .accordion:hover .icon {
   opacity: 1;
 }
