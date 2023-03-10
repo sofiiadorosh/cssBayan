@@ -1,3 +1,3 @@
 # cssBayan
 
-https://anenko.sofi.github.io/cssBayan/cssBayan/index.html
+https://anenkosofi.github.io/cssBayan/cssBayan/index.html
