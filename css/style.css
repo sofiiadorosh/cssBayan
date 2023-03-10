@@ -153,6 +153,10 @@ span {
   transform: scale(1);
 }
 
+.accord:hover .icon {
+  transform: rotate(45deg);
+}
+
 .accord label:active {
   cursor: wait;
 }
