@@ -130,12 +130,14 @@ span {
   align-items: center;
 }
 
-.accordion:hover .icon {
+@media screen and (min-width: 920px) {
+  .accordion:hover .icon {
   opacity: 1;
-}
+  }
 
 .accordion:hover input:not(:checked) + label .text {
   color: #212121;
+  }
 }
 
 .accord {
@@ -144,17 +146,19 @@ span {
   border-top: 0.05rem solid gray;
 }
 
-.accord label:hover {
+@media screen and (min-width: 920px) {
+  .accord label:hover {
   cursor: pointer;
-}
+  }
 
-.accord:hover  img {
+  .accord:hover  img {
   width: 50%;
   transform: scale(1);
-}
+  }
 
-.accord:hover .icon {
+  .accord:hover .icon {
   transform: rotate(45deg);
+  }
 }
 
 .accord label:active {
